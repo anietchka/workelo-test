@@ -15,7 +15,7 @@ def disponibility(andy, sandra)
   # Print all results
   available_hour.each do |key, v|
     v.each_with_index do |b, i|
-      if b == true
+      if b
         puts "Créneau disponible le #{key} de #{i+9}h à #{i+10}h"
       end
     end
